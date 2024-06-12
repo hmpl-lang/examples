@@ -12,7 +12,7 @@ module.exports = {
     rules: [
       {
         test: /\.hmpl$/i,
-        use: ["hmpl-loader"],
+        use: "hmpl-loader",
       },
     ],
   },

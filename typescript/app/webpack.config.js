@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         test: /\.hmpl$/i,
-        use: ["hmpl-loader"],
+        use: "hmpl-loader",
       },
     ],
   },
